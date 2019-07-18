@@ -1,0 +1,12 @@
+name: crawling
+dependencies:
+  - python==3.7.0
+  - jupyter
+  - scipy==1.1.0
+  - pandas==0.23.4
+  - numpy==1.15.1
+  - click
+  - scrapy==1.6
+  - spyder-kernels
+  #- pip:
+  #  - 
