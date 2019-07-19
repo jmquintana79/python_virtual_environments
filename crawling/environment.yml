@@ -8,6 +8,7 @@ dependencies:
   - click
   #- scrapy==1.6
   - beautifulsoup4
+  - requests
   - spyder-kernels
   #- pip:
   #  - 
