@@ -1,4 +1,4 @@
-name: geo
+name: geotool
 dependencies:
   - python==3.7.0
   - jupyter
@@ -7,6 +7,7 @@ dependencies:
   - matplotlib
   - seaborn==0.9.0
   - click
+  - spyder-kernels
   - pip:
     - haversine
     - geopandas
