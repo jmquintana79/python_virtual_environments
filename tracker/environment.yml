@@ -14,3 +14,4 @@ dependencies:
   - pip:
     - xlrd==0.9.0 # pd.read_excel
     - netaddr
+    - PyYAML

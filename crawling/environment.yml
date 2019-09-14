@@ -10,5 +10,5 @@ dependencies:
   - beautifulsoup4
   - requests
   - spyder-kernels
-  #- pip:
-  #  - 
+  - pip:
+    - PyYAML 
