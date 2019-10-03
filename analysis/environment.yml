@@ -12,5 +12,5 @@ dependencies:
   - pandas-profiling
   - spyder-kernels
   - pip:
-    - xlrd==0.9.0 # pd.read_excel
+    - xlrd==1.2.0 # pd.read_excel
     - PyYAML

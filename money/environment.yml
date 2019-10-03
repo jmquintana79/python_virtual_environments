@@ -11,5 +11,5 @@ dependencies:
   - statsmodels==0.9.0
   - pandas-profiling
   - pip:
-    - xlrd # pd.read_excel 
+    - xlrd==1.2.0 # pd.read_excel 
     - PyYAML
