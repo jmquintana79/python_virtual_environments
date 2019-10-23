@@ -2,14 +2,17 @@ name: geotool
 dependencies:
   - python==3.7.0
   - jupyter
+  #- jupyterlab==1.1.4
   - scipy==1.1.0
   - pandas==0.23.4
   - matplotlib
   - seaborn==0.9.0
-  - click
-  - spyder-kernels
+  - scikit-learn==0.21.3
+  #- spyder-kernels
   - pip:
     - haversine
     - geopandas
     - descartes
     - PyYAML
+    - point2d
+    - rtree
