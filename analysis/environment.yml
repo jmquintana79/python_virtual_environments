@@ -2,7 +2,6 @@ name: analysis
 dependencies:
   - python==3.7.0
   - jupyter
-  #- jupyterlab==1.1.4
   - scipy==1.1.0
   - pandas==0.23.4
   - matplotlib
@@ -14,4 +13,5 @@ dependencies:
   #- spyder-kernels
   - pip:
     - xlrd==1.2.0 # pd.read_excel
-    - PyYAML
+    - PyYAML # yml files
+    - missingno # missing values
