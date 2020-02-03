@@ -15,3 +15,4 @@ dependencies:
     - xlrd==1.2.0 # pd.read_excel
     - PyYAML # yml files
     - missingno # missing values
+    - hiplot # parallel plot
