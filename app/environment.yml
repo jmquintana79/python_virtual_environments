@@ -1,0 +1,10 @@
+name: app
+dependencies:
+  - python==3.7.0
+  - jupyter
+  - scipy==1.1.0
+  - pandas==0.23.4
+  #- spyder-kernels
+  - pip:
+    - PyYAML
+    - PySimpleGUI 
