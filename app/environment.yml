@@ -4,6 +4,8 @@ dependencies:
   - jupyter
   - scipy==1.1.0
   - pandas==0.23.4
+  - matplotlib
+  - seaborn==0.9.0
   #- spyder-kernels
   - pip:
     - PyYAML
