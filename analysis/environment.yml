@@ -16,4 +16,4 @@ dependencies:
     - PyYAML # yml files
     - missingno # missing values
     - hiplot # parallel plot
-    - visions # data analysis for any type of data
+    #- visions # data analysis for any type of data
