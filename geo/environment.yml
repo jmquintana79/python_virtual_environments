@@ -7,8 +7,10 @@ dependencies:
   - matplotlib
   - seaborn==0.9.0
   - click
-  - spyder-kernels
+  #- spyder-kernels
   - pip:
     - haversine
     - geopandas
     - descartes
+    - fiona  # select shapefile rows
+    - geofeather # feather format for more quicker access.
