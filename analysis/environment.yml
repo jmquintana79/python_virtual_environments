@@ -10,6 +10,10 @@ dependencies:
   - scikit-learn==0.20.1
   - statsmodels==0.9.0
   - pandas-profiling
-  - spyder-kernels
+  #- spyder-kernels
   - pip:
-    - xlrd==0.9.0 # pd.read_excel
+    - xlrd==1.2.0 # pd.read_excel
+    - PyYAML # yml files
+    - missingno # missing values
+    - hiplot # parallel plot
+    #- visions # data analysis for any type of data
