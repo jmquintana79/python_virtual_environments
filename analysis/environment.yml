@@ -11,6 +11,7 @@ dependencies:
   - statsmodels==0.9.0
   - pandas-profiling
   - spyder-kernels
+  - spyder-notebook
   - pip:
     - xlrd==1.2.0 # pd.read_excel
     - PyYAML # yml files
