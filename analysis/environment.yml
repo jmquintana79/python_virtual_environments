@@ -2,19 +2,21 @@ name: analysis
 dependencies:
   - python==3.7.0
   - jupyter
+  - click # customized plots
   - scipy==1.1.0
   - pandas==0.23.4
   - matplotlib
   - seaborn==0.9.0
-  - click
   - scikit-learn==0.20.1
   - statsmodels==0.9.0
-  - pandas-profiling
+  - pandas-profiling # EDA
   - spyder-kernels
-  - spyder-notebook
+  #- spyder-notebook
   - pip:
     - xlrd==1.2.0 # pd.read_excel
     - PyYAML # yml files
+    - dataprep # data preparation with good EDA
     - missingno # missing values
     - hiplot # parallel plot
-    #- visions # data analysis for any type of data
+    - icecream # print with marks
+    #- visions # data summarization for any type of data
