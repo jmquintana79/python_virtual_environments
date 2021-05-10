@@ -2,7 +2,7 @@ name: analysis
 dependencies:
   - python==3.7.0
   - jupyter
-  - click # customized plots
+  #- click # customized prints
   - scipy==1.1.0
   - pandas==0.23.4
   - matplotlib
@@ -18,6 +18,8 @@ dependencies:
     - dataprep # data preparation with good EDA
     - missingno # missing values
     - hiplot # parallel plot
-    #- dataprep # EDA
+    - dataprep # EDA
+    - featexp # features analysis
+    - xgboost==0.80
     #- icecream # print with marks
     #- visions # data summarization for any type of data
