@@ -19,8 +19,8 @@ hiplot==0.1.25 # parallel plot
 featexp==0.0.7 # features analysis
 
 # external requirements by spyder ide
-spyder-notebook
-spyder-kernels
+#spyder-notebook
+#spyder-kernels
 # external requirements by cookiecutter
 click
 Sphinx
