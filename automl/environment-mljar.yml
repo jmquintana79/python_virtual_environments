@@ -1,0 +1,7 @@
+name: automl1
+dependencies:
+  - python==3.7.0
+  - jupyter
+  - pip
+  - pip:
+    - mljar-supervised
