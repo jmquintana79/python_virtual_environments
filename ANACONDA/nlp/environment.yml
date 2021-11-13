@@ -11,10 +11,10 @@ dependencies:
   - nltk
   - spacy
   - pip:
-    - collections-extended 
-    - newspaper3k      # nlp and scrapping for articles
-    - readability      # similar to newspaper
+    - collections-extended # words counter
+    - newspaper3k          # nlp and scrapping for articles
+    - readability          # similar to newspaper
     - readability-lxml
-    - google           # google search without Google API credentials
-    - cleantext        # definitive nlp tool to clean texts
-    - langdetect       # language detection
+    - google               # google search without Google API credentials
+    - cleantext            # definitive nlp tool to clean texts
+    - langdetect           # language detection
