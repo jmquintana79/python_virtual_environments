@@ -1,0 +1,20 @@
+name: nlp
+dependencies:
+  - python==3.7.0
+  - jupyter
+  - scipy==1.1.0
+  - pandas==0.23.4
+  - matplotlib
+  - seaborn==0.9.0
+  - spyder-kernels
+  - beautifulsoup4
+  - nltk
+  - spacy
+  - pip:
+    - collections-extended 
+    - newspaper3k      # nlp and scrapping for articles
+    - readability      # similar to newspaper
+    - readability-lxml
+    - google           # google search without Google API credentials
+    - cleantext        # definitive nlp tool to clean texts
+    - langdetect       # language detection

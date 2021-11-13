@@ -6,9 +6,10 @@ dependencies:
   - pandas==0.23.4
   - numpy==1.15.1
   - click
-  #- scrapy==1.6
+  - scrapy
   - beautifulsoup4
   - requests
   #- spyder-kernels
   - pip:
-    - PyYAML 
+    - PyYAML
+    - newspaper3k 
