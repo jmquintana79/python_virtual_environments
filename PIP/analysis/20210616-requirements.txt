@@ -1,5 +1,5 @@
 ## ds tools
-ipython==7.24.1
+ipython==7.31.1
 notebook==6.4.0
 scipy==1.6.3
 pandas==1.2.4
