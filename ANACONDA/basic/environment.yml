@@ -1,7 +1,9 @@
 name: basic
+channels:
+  - conda-forge
 dependencies:
   - python==3.9.5
-  - invoke==1.6.1
+  - invoke==1.6.0
   - jupyterlab==3.3.0
   - scipy==1.8.0
   - pandas==1.4.1
