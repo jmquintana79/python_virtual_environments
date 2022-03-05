@@ -13,6 +13,7 @@ dependencies:
   - pip
   - pip:
     - xlrd==2.0.1 # pd.read_excel
+    - PyYAML==6.0
     - dataprep==0.4.2 # data preparation with good EDA
     - missingno==0.4.2 # missing values
     - hiplot==0.1.32 # parallel plot
