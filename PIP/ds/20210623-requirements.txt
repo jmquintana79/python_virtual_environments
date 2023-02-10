@@ -1,5 +1,5 @@
 ## ds tools
-ipython==7.2.0
+ipython==8.10.0
 jupyter==1.0.0
 #jupyter-client==5.2.4
 #jupyter-console==6.0.0
